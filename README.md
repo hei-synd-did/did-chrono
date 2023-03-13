@@ -24,12 +24,6 @@
 
 Laboratory file for semesterproject chronometer for first year bachelor students.
 
-As it changes each year, all you have to do is search on <a href="https://cyberlearn.hes-so.ch" target="_blank">Moodle Cyberlearn</a> for the course number and select the one starting with the last two digits of the current year.
-
-Course number is 2131 for SYND
-
-The course full name is composed as a concatenation of year (YY), school name, course ID and course name: "YY_HES-SO-VS_2131_Electricite / Elektrotechnik ELN"
-
 ## How To Use
 [(Back to top)](#table-of-contents)
 
@@ -78,6 +72,7 @@ git push origin master
 * BiC
 * PrC
 * ZaS
+* AmA
 
 ## License
 [(Back to top)](#table-of-contents)
