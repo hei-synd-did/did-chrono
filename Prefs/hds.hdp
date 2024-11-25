@@ -1,7 +1,7 @@
 [Concat]
 Board = $HDS_PROJECT_DIR/../Board/concat
 [Lattice]
-ecp5u = C:\eda\MentorGraphics\LatticeLibs\ecp5u
+ecp5u = C:/eda/MentorGraphics/LatticeLibs/ecp5u
 [ModelSim]
 Board = $SCRATCH_DIR/$DESIGN_NAME/Board/work
 Chronometer = $SCRATCH_DIR/$DESIGN_NAME/Chronometer/work
@@ -40,7 +40,7 @@ Memory = $HEI_LIBS_DIR/Memory/hds
 sequential = $HEI_LIBS_DIR/Sequential/hds
 std = $HDS_HOME/hdl_libs/std/hds
 [hds_settings]
-design_root = Board.EBS3(struct)@e@b@s3/struct.bd
+design_root = Board.EBS2(struct)@e@b@s2/struct.bd
 [library_files_inclusion]
 ecp5u = all
 Lattice = all

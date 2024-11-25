@@ -1152,6 +1152,10 @@ first "UltraEdit"
 second "uedit32.exe \"%(p)/%(l)\""
 )
 (pair
+first "VSCode"
+second "code.exe \"%(p)\""
+)
+(pair
 first "WinEdit"
 second "WinEdit.exe \"%(p)\" -# %(l)"
 )
@@ -1188,6 +1192,10 @@ second "textpad.exe -r \"%(p)(%(l))\""
 (pair
 first "UltraEdit"
 second "uedit32.exe \"%(p)/%(l)\" /r"
+)
+(pair
+first "VSCode"
+second "code.exe \"%(p)\""
 )
 ]
 defaultTextPrintingCmd "Enscript"
@@ -1268,6 +1276,7 @@ projectPaths [
 "C:\\work\\edu\\eln\\project\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\dev\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\dev\\did-chrono\\Prefs\\hds.hdp"
+"C:\\dev\\DiD\\did-chrono\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -1690,7 +1699,6 @@ tasksMenubarOrder [
 "USER:Generate"
 ]
 tasksShortcutbarOrder [
-"Setup DesignChecker"
 "\"USER:ModelSim Compile\""
 "\"USER:ModelSim Flow\""
 "\"USER:ModelSim Simulate\""
@@ -4284,7 +4292,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "1267x1008+26+26"
+logWindowGeometry "1267x1008+-3415+-227"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6311,10 +6319,10 @@ size 190
 )
 ]
 displayHierarchy 0
-xPos 0
-yPos 0
+xPos -1920
+yPos -251
 width 1936
-height 1056
+height 1048
 activeSidePanelTab 2
 activeLibraryTab 1
 sidePanelSize 293
