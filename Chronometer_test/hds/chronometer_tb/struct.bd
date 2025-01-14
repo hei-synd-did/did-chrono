@@ -77,7 +77,7 @@ libraryRefs [
 ]
 )
 version "32.1"
-appVersion "2023.4 Built on 6 Oct 2023 at 01:57:26"
+appVersion "2019.2 (Build 5)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -88,23 +88,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hdl"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb\\struct.bd.info"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb\\struct.bd.user"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -124,27 +124,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb"
 )
 (vvPair
 variable "date"
-value "10.01.2025"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "10"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -172,11 +172,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "remy.borgeat"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "10.01.2025"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -184,11 +184,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE10993"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:18:06"
+value "11:04:06"
 )
 (vvPair
 variable "group"
@@ -196,7 +196,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE10993"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -232,11 +232,11 @@ value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb\\struct.bd"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remy.borgeat\\Documents\\git\\Courses\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb\\struct.bd"
+value "C:\\dev\\DiD\\did-chrono\\Prefs\\..\\Chronometer_test\\hds\\chronometer_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -316,7 +316,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "16:18:06"
+value "11:04:06"
 )
 (vvPair
 variable "unit"
@@ -324,11 +324,11 @@ value "chronometer_tb"
 )
 (vvPair
 variable "user"
-value "remy.borgeat"
+value "Axam"
 )
 (vvPair
 variable "version"
-value "2023.4 Built on 6 Oct 2023 at 01:57:26"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -362,8 +362,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "-5000,34200,7600,35200"
-st "SIGNAL reset    : std_ulogic
-"
+st "SIGNAL reset    : std_ulogic"
 )
 )
 *2 (Net
@@ -381,8 +380,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "-5000,28200,7600,29200"
-st "SIGNAL clock    : std_ulogic
-"
+st "SIGNAL clock    : std_ulogic"
 )
 )
 *3 (Grouping
@@ -467,7 +465,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "56200,91400,74600,92600"
+xt "56200,91400,75400,92600"
 st "
 by %user on %dd %month %year
 "
@@ -802,8 +800,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12600,1000"
-st "SIGNAL coil4    : std_uLogic
-"
+st "SIGNAL coil4    : std_uLogic"
 )
 )
 *19 (Net
@@ -821,8 +818,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12600,1000"
-st "SIGNAL coil3    : std_uLogic
-"
+st "SIGNAL coil3    : std_uLogic"
 )
 )
 *20 (Net
@@ -840,8 +836,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12600,1000"
-st "SIGNAL coil2    : std_uLogic
-"
+st "SIGNAL coil2    : std_uLogic"
 )
 )
 *21 (Net
@@ -859,8 +854,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12600,1000"
-st "SIGNAL coil1    : std_uLogic
-"
+st "SIGNAL coil1    : std_uLogic"
 )
 )
 *22 (Net
@@ -878,8 +872,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12800,1000"
-st "SIGNAL stop     : std_uLogic
-"
+st "SIGNAL stop     : std_uLogic"
 )
 )
 *23 (Net
@@ -897,8 +890,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12600,1000"
-st "SIGNAL start    : std_uLogic
-"
+st "SIGNAL start    : std_uLogic"
 )
 )
 *24 (Net
@@ -916,8 +908,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12800,1000"
-st "SIGNAL restart  : std_uLogic
-"
+st "SIGNAL restart  : std_uLogic"
 )
 )
 *25 (Net
@@ -935,8 +926,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,13600,1000"
-st "SIGNAL testMode : std_uLogic
-"
+st "SIGNAL testMode : std_uLogic"
 )
 )
 *26 (Net
@@ -954,8 +944,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,13100,1000"
-st "SIGNAL sensor   : std_uLogic
-"
+st "SIGNAL sensor   : std_uLogic"
 )
 )
 *27 (Net
@@ -973,8 +962,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12700,1000"
-st "SIGNAL A0       : std_uLogic
-"
+st "SIGNAL A0       : std_uLogic"
 )
 )
 *28 (Net
@@ -992,8 +980,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12500,1000"
-st "SIGNAL SI       : std_uLogic
-"
+st "SIGNAL SI       : std_uLogic"
 )
 )
 *29 (Net
@@ -1011,8 +998,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,12900,1000"
-st "SIGNAL SCL      : std_uLogic
-"
+st "SIGNAL SCL      : std_uLogic"
 )
 )
 *30 (Net
@@ -1030,8 +1016,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,13300,1000"
-st "SIGNAL button4  : std_uLogic
-"
+st "SIGNAL button4  : std_uLogic"
 )
 )
 *31 (Net
@@ -1049,8 +1034,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,13400,1000"
-st "SIGNAL RST_n    : std_uLogic
-"
+st "SIGNAL RST_n    : std_uLogic"
 )
 )
 *32 (Net
@@ -1068,8 +1052,7 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,0,13400,1000"
-st "SIGNAL CS1_n    : std_uLogic
-"
+st "SIGNAL CS1_n    : std_uLogic"
 )
 )
 *33 (SaComponent
@@ -2600,8 +2583,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "1912,-8,3848,1048"
-viewArea "-23892,18839,36288,51536"
+windowSize "-1928,-259,8,789"
+viewArea "-8581,17963,134095,94814"
 cachedDiagramExtent "-7000,0,102000,93000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"
@@ -2625,7 +2608,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,19000"
-lastUid 4555,0
+lastUid 4612,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
