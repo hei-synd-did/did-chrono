@@ -1140,6 +1140,10 @@ first "Notepad++"
 second "notepad++.exe \"%(p)\" -n%(l)"
 )
 (pair
+first "Sublime Text"
+second "subl.exe \"%(p)\""
+)
+(pair
 first "Textpad 3.2"
 second "txtpad32.exe \"%(p)(%(l))\""
 )
@@ -1180,6 +1184,10 @@ second "notepad.exe \"%(p)\""
 (pair
 first "Notepad++"
 second "notepad++.exe \"%(p)\" -n%(l) -ro"
+)
+(pair
+first "Sublime Text"
+second "subl.exe \"%(p)\""
 )
 (pair
 first "Textpad 3.2"
