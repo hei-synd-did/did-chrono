@@ -1203,6 +1203,8 @@ win32DefaultEditor "Notepad++"
 win32DefaultViewer "Notepad++"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
+defaultLanguage 11
+defaultVhdlDialect 11
 defaultVerilogDialect 5
 verilogSearchPath ""
 syscUserIncPath ""
@@ -1515,7 +1517,7 @@ width 816
 height 1161
 )
 (PageSizeInfo
-name "Format papier personnalisé"
+name "Format papier personnalisï¿½"
 type 256
 width 783
 height 1013
@@ -4293,7 +4295,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "622x780+-1301+-146"
+logWindowGeometry "622x780+619+117"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6325,7 +6327,7 @@ yPos -251
 width 1936
 height 1048
 activeSidePanelTab 2
-activeLibraryTab 2
+activeLibraryTab 1
 sidePanelSize 293
 showUnixHiddenFiles 0
 componentBrowserXpos 569
@@ -6420,6 +6422,8 @@ display "State Register Statements"
 status 1
 )
 ]
+vhdlScalarType "std_ulogic"
+vhdlVectorType "std_ulogic_vector"
 clockNameVaSet (VaSet
 )
 clockShapeVaSet (VaSet
@@ -6449,6 +6453,7 @@ recoveryShapeVaSet (VaSet
 vasetType 1
 fg "65535,0,0"
 )
+rstLevel 1
 stateShapeVaSet (VaSet
 vasetType 1
 fg "0,65535,65535"
@@ -6582,7 +6587,7 @@ archConcurrentStatementBlockValueVaSet (VaSet
 )
 outputSignalStatus 1
 internalSignalStatus 2
-showPropsDlgMsg 1
+showPropsDlgMsg 0
 )
 (H2gPreferences
 filesAdded [
@@ -6783,7 +6788,7 @@ cptPortOutName "Out0"
 cptPortInOutName "InOut0"
 cptPortBufferName "Buffer0"
 groupName "Group0"
-cptPortVhdlType "unsigned"
+cptPortVhdlType "std_ulogic"
 cptPortVerilogType "wire"
 cptPortVhdlBounds "(15 DOWNTO 0)"
 cptPortVerilogLb "15"
